@@ -1,0 +1,13 @@
+Beautifeed is a full text rss reader. It takes the URL of the website as input, checks if the feed exists for the website or not. If the feed exists, it converts the truncated feeds to full text feeds. It uses html5 slideshow as the front end to display the full text feeds. The backend is done is php.
+
+Existence of the feed.
+The existence of the feed is checked by using simple_html_dom class in php. It checks for the existence of the feed in the <link> tag, if it exists, the url of the feed is saved in a variable. 
+
+Conversion of truncated feeds to full text feeds.
+The truncated feeds are converted to full text rss feeds by using an amazing web application called fulltextrssfeed.com. Then the feed is converted to json format using the amazing YQL(Yahoo Query Language). The json is then decoded and the feed is displayed.
+
+HTML5 frontend
+It uses the HTML5 slideshow from html5rocks.com as the frontend. The advantage is, it looks so appealing and also it is compatible with most major smartphones.
+
+Project URL
+http://www.prashantb.com/Beautifeed/
