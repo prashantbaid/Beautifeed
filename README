@@ -7,7 +7,7 @@ Conversion of truncated feeds to full text feeds.
 The truncated feeds are converted to full text rss feeds by using an amazing web application called fulltextrssfeed.com. Then the feed is converted to json format using the amazing YQL(Yahoo Query Language). The json is then decoded and the feed is displayed.
 
 HTML5 frontend
-It uses the HTML5 slideshow from html5rocks.com as the frontend. The advantage is, it looks so appealing and also it is compatible with most major smartphones.
+The project uses HTML5 for its UI which is inturn inspired from HTML5Rocks.com. It is compatible with most smartphone out there in the market and has an appealing UI.
 
 Project URL
 http://www.prashantb.com/Beautifeed/
